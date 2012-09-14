@@ -6,9 +6,10 @@ It's Use the Oxygen Font from Google Font.
 #Look Ma it's Responsive!
 Yes!
 
+#License
 Author: Mte90
 License GPL 3 (opensource forever!)
 
-ToDo:
+#ToDo
 Insert the social icon on a sprite image
 
