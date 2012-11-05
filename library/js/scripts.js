@@ -30,35 +30,13 @@ if (!window.getComputedStyle) {
 // as the page loads, call these scripts
 jQuery(document).ready(function($) {
 
-    /*
-    Responsive jQuery is a tricky thing.
-    There's a bunch of different ways to handle
-    it so, be sure to research and find the one
-    that works for you best.
-    */
-
     /* getting viewport width */
     var responsive_viewport = $(window).width();
-
-    /* if is below 481px */
-    if (responsive_viewport < 481) {
-
-    } /* end smallest screen */
-
-    /* if is larger than 481px */
-    if (responsive_viewport > 481) {
-
-    } /* end larger than 481px */
 
     /* if is above or equal to 768px */
     if (responsive_viewport >= 768) {
 
-        /* load gravatars */
-        $('.comment img[data-gravatar]').each(function(){
-            $(this).attr('src',$(this).attr('data-gravatar'));
-        });
-
-	if( document.body.style['webkitPerspective'] !== undefined || document.body.style['MozPerspective'] !== undefined ) {
+	    if( $.browser.mozilla == true ) {
 
 		jQuery( 'a:not(.roll-link):not(.forkit):not(:has(img)):not(.addthis_button_facebook_like)' ).each(function(index, value){
 			var node = this;
@@ -71,15 +49,6 @@ jQuery(document).ready(function($) {
 	}
 
     }
-
-    /* off the bat large screen actions */
-    if (responsive_viewport > 1030) {
-
-    }
-
-
-	// add all your scripts here
-
 
 }); /* end of as page load scripts */
 
