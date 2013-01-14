@@ -9,7 +9,3 @@ Yes!
 #License
 Author: Mte90
 License GPL 3 (opensource forever!)
-
-#ToDo
-Insert the social icon on a sprite image
-
