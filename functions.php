@@ -173,4 +173,9 @@ function double_column(){
 }
 
 wp_register_sidebar_widget('categorie','Categorie', 'double_column');
+add_filter( 'author_link', 'my_author_link' );
+
+function my_author_link() {
+	return home_url( 'about' );
+}
 ?>

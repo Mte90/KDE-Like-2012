@@ -7,7 +7,6 @@
 
 	<head>
 		<meta charset="utf-8">
-
 		<title><?php if ( is_category() ) {
 			echo 'Category Archive for &quot;'; single_cat_title(); echo '&quot; | '; bloginfo( 'name' );
 		} elseif ( is_tag() ) {
@@ -33,7 +32,7 @@
 		<meta name="HandheldFriendly" content="True"/>
 		<meta name="MobileOptimized" content="320"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+		
 		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico"/>
 
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
@@ -47,13 +46,6 @@
 		wp_enqueue_script( 'forkit' );
 		?>
 		<!-- end of wordpress head -->
-
-		<!-- drop Google Analytics Here -->
-		<script type="text/javascript">
-		var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-27938703-1']);  _gaq.push(['_trackPageview']);
-		(function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);  })();
-		</script>
-		<!-- end analytics -->
 
 	</head>
 
@@ -90,7 +82,7 @@
 					<a href="http://twitter.com/Mte90Net" class="roll-link"><div class="sprite-twitter"> </div></a>
 					<a href="http://www.linkedin.com/profile/view?id=173136999" class="roll-link"><div class="sprite-linkedin"> </div></a>
 					<a href="http://www.youtube.com/user/Mte90lp" class="roll-link"><div class="sprite-youtube"> </div></a>
-					<a href="http://plus.google.com/115447737942040259845" class="roll-link"><div class="sprite-google"> </div></a>
+					<a href="https://plus.google.com/u/0/115447737942040259845/posts" rel=”publisher” class="roll-link"><div class="sprite-google"> </div></a>
 					<a href="http://it.foursquare.com/mte90net" class="roll-link"><div class="sprite-foursquare"> </div></a>
 					<a href="http://zerply.com/mte90net" class="roll-link"><div class="sprite-zerply"> </div></a>
 					<a href="http://forrst.com/people/Mte90" class="roll-link"><div class="sprite-forrst"> </div></a>

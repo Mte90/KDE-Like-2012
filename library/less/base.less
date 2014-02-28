@@ -45,6 +45,10 @@ header.header {
 	background-color: rgba(255, 255, 255, 0.8);
 }
 
+#inner-header {
+	min-height: 104px;
+}
+
 /********************
 WORDPRESS BODY CLASSES
 style a page via class
@@ -78,12 +82,8 @@ LAYOUT & GRID STYLES
 }
 .search,.social {
 	float: right;
-	margin-right: 90px;
 	margin-top: 10px;
-
-}
-.search {
-	height: 50px;
+	height: 40px;
 
 }
 #s {
@@ -203,10 +203,13 @@ HEADER SYTLES
 #logo a {
 	left: 4px;
     	position: relative;
-    	top: 6px;
+    	top: 10px;
+    	font-size: 34px;
 }
+
 #logo {
-	margin-top:4px;
+	margin-top:-8px;
+	top:24px;
 }
 /*********************
 NAVIGATION STYLES
@@ -221,17 +224,23 @@ NAVIGATION STYLES
 	}
 }
 .nav {
-	border-bottom: 0;
+	border: 0;
 	position: relative;
-    	top: 5px;
-    	width: 540px;
+    top: 5px;
+    width: 100%;
 
 	li {
-
+		float: left;
+		position: relative;
 		a {
 			display: block;
 			text-decoration: none;
 			padding: 0 4px;
+			border-bottom: 0;
+			&:hover ul {
+				top: auto;
+				display: block;
+				}
 		}
 
 	} /* end .menu li */
@@ -239,7 +248,7 @@ NAVIGATION STYLES
 } /* end .nav */
 
 nav {
-	margin-top: 36px;
+	margin-top: 46px;
 	font-size:15px;
 }
 /*********************

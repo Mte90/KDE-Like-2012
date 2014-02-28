@@ -18,6 +18,11 @@ of the styles inside media queries.
 // import normalize
 @import "normalize.less";
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 // import mixins
 @import "mixins.less";
 
@@ -186,4 +191,8 @@ be set to display none.
     nav {
     	display: none;
     }
+}
+
+@media only screen and (min-width: 800px) {
+	font-size: 44px;
 }

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: wp theme bones\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-02 22:11+0100\n"
-"PO-Revision-Date: 2012-08-05 16:28+0200\n"
+"PO-Revision-Date: 2014-02-28 18:58+0100\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language-Team: fulgor <frag.fulgor@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -13,11 +13,11 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;_n\n"
 "X-Poedit-Basepath: /home/fulgor/GIT/bones\n"
-"X-Poedit-SearchPath-0: /home/fulgor/GIT/bones\n"
 "Last-Translator: Daniele Scasciafratte <mte90smanettator@gmail.com>\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: /home/fulgor/GIT/bones\n"
 
 #: comments.php:12
 msgid "This post is password protected. Enter the password to view comments."
@@ -86,8 +86,7 @@ msgstr "Log Out"
 msgid "Name"
 msgstr "Nome"
 
-#: comments.php:93
-#: comments.php:98
+#: comments.php:93 comments.php:98
 msgid "(required)"
 msgstr "(richiesto)"
 
@@ -132,26 +131,19 @@ msgstr "Puoi usare questo tag"
 msgid "Page %s"
 msgstr "Pagina %s"
 
-#: taxonomy-custom_cat.php:22
-#: archive.php:9
+#: taxonomy-custom_cat.php:22 archive.php:9
 msgid "Posts Categorized:"
 msgstr "Post con Categorie:"
 
-#: taxonomy-custom_cat.php:32
-#: embed-post_meta.php:1
-#: single-custom_type.php:30
+#: taxonomy-custom_cat.php:32 embed-post_meta.php:1 single-custom_type.php:30
 msgid "Posted"
-msgstr "Postato"
+msgstr "Postato il"
 
-#: taxonomy-custom_cat.php:32
-#: embed-post_meta.php:1
-#: single-custom_type.php:30
+#: taxonomy-custom_cat.php:32 embed-post_meta.php:1 single-custom_type.php:30
 msgid "by"
 msgstr "da"
 
-#: taxonomy-custom_cat.php:32
-#: embed-post_meta.php:1
-#: single-custom_type.php:30
+#: taxonomy-custom_cat.php:32 embed-post_meta.php:1 single-custom_type.php:30
 msgid "filed under"
 msgstr "sotto"
 
@@ -196,8 +188,7 @@ msgstr "Leggi tutto"
 msgid "Posts Tagged:"
 msgstr "Post taggati:"
 
-#: archive.php:17
-#: author.php:8
+#: archive.php:17 author.php:8
 msgid "Posts By:"
 msgstr "Post dy:"
 
@@ -384,4 +375,3 @@ msgstr "Aggiungi Nuovo Tag Personalizzato"
 #: library/custom-post-type.php:103
 msgid "New Custom Tag Name"
 msgstr "Nuovo Nome Tag Personalizzato"
-
